@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>demo</groupId>
+    <artifactId>demo-spring-data-jpa</artifactId>
+    <packaging>pom</packaging>
+    <version>0.0.1-SNAPSHOT</version>
+
+    <modules>
+        <module>demo-spring4-data-jpa-sync</module>
+        <module>demo-spring4-data-jpa-sync-kotlin</module>
+        <module>demo-spring4-data-jpa-async</module>
+        <module>demo-spring4-data-jpa-reactive</module>
+        <module>demo-spring5-data-jpa-reactive</module>
+    </modules>
+</project>
